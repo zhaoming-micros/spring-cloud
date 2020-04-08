@@ -1,0 +1,1 @@
+java -Xms128m -Xmx512m -XX:PermSize=128m -XX:MaxPermSize=512m -jar springCloudTest-0.0.1-SNAPSHOT.jar
