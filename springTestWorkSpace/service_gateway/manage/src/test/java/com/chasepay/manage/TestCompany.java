@@ -1,0 +1,55 @@
+package com.chasepay.manage;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.chasepay.configuration.SystemBaseHome;
+import com.chasepay.manage.service.CompanyService;
+import com.chasepay.manage.service.impl.CompanyServiceImpl;
+import com.chasepay.utilities.constant.EntityAttributeConstants;
+import com.chasepay.utilities.constant.EntityConstant;
+import com.chasepay.utilities.entity.Entity;
+import com.chasepay.utilities.entity.Entity_Attribute;
+import com.chasepay.utilities.util.CommonUtil;
+
+public class TestCompany {
+	
+	public static void main(String[] args) {
+		
+		String path = "D:\\workspace\\chasepay_service_product\\";
+		SystemBaseHome.getInstance().setSystemHome(path);
+		
+		CompanyService companyService = new CompanyServiceImpl();
+		Entity entity = new Entity();
+		entity.setEntity_type(EntityConstant.ENTITY_TYPE_COMPANY);
+		List<Entity_Attribute> attributes = new ArrayList<Entity_Attribute>();
+		Entity_Attribute entity_Attribute = new Entity_Attribute();
+
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_company_name);
+		entity_Attribute.setAttribute_value("company1");
+		attributes.add(entity_Attribute);
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_company_create_time);
+		entity_Attribute.setAttribute_value(CommonUtil.getTimeString());
+		attributes.add(entity_Attribute);
+		
+		entity.setAttribute_value_list(attributes);
+		
+		Map<String,String> map = new HashMap<String,String>();
+		map.put(EntityConstant.company_id, null);
+		String id = companyService.create(map, entity);
+		
+		if(null!=id)
+		{
+			System.out.println(id);
+		}
+		else
+		{
+			System.out.println("null");
+		}
+	}
+
+}

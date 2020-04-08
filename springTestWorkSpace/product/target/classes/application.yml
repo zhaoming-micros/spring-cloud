@@ -1,0 +1,33 @@
+server:
+  port: 8770
+
+eureka:
+  client:
+
+    serviceUrl:
+      defaultZone: http://192.168.0.110:8761/eureka/
+
+
+logging:
+  config: classpath:log4j2.xml
+
+spring:
+  application:
+    name: service-product
+    
+  redis:
+    database: 0
+    host: 192.168.0.110    
+    port: 6379
+    timeout: 1000ms
+    
+    lettuce:
+      pool: 
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
+        max-active: 8
+  
+  session:
+    store-type: redis
+    

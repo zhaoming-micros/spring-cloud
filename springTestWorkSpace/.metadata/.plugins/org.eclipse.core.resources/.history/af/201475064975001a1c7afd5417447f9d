@@ -1,0 +1,11 @@
+package com.chasepay.manage.constant;
+
+public class ManageConstants {
+	
+	public static final String PRODUCT_KEY = "product"; 
+	
+	public static final boolean ACTIVE_BY_EMAIL = true;
+	
+	public static final String CACHE_KEY_REGIST = "regist_users";
+
+}

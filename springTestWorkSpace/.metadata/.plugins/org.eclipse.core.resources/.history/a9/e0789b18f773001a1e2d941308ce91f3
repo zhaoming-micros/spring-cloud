@@ -1,0 +1,36 @@
+package com.chasepay.utilities.util;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.chasepay.utilities.entity.webservice.ServletRequestData;
+import com.google.gson.Gson;
+
+public class ChasepayCommonUtil {
+	
+	private static Logger logger = LogManager.getLogger(ChasepayCommonUtil.class);
+	
+	public ServletRequestData getRequest(String json)
+	{
+		Gson gson = new Gson();
+		if (json != null)
+		{
+			try 
+			{
+				return gson.fromJson(json, ServletRequestData.class);
+			}
+			catch(Exception e)
+			{
+				logger.error("ServletRequestData : fromJson exp");
+				logger.error(e);
+				e.printStackTrace();
+			}
+		}
+		else
+			logger.error("ServletRequestData : fromJson : json is null");
+		
+		return null;
+		
+	}
+
+}

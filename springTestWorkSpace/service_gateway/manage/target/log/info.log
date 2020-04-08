@@ -1,0 +1,854 @@
+04/07/2020 09:03:08.348 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2e3967ea: startup date [Tue Apr 07 09:03:08 CST 2020]; root of context hierarchy
+04/07/2020 09:03:09.761 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:03:09.888 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a1886a0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:03:11.472 [main|ManageServiceStart] - No active profile set, falling back to default profiles: default
+04/07/2020 09:03:11.516 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65aa6596: startup date [Tue Apr 07 09:03:11 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2e3967ea
+04/07/2020 09:03:20.796 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+04/07/2020 09:03:23.307 [main|GenericScope] - BeanFactory id=2a5c2bce-f94b-3769-8775-ce00e36f7438
+04/07/2020 09:03:23.358 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:03:24.158 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a1886a0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:03:29.488 [main|TomcatWebServer] - Tomcat initialized with port(s): 8766 (http)
+04/07/2020 09:03:30.493 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:03:30.738 [main|StandardService] - Starting service [Tomcat]
+04/07/2020 09:03:30.739 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+04/07/2020 09:03:30.900 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+04/07/2020 09:03:33.210 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+04/07/2020 09:03:33.211 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 21695 ms
+04/07/2020 09:03:34.075 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+04/07/2020 09:03:34.191 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+04/07/2020 09:03:34.192 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+04/07/2020 09:03:34.192 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+04/07/2020 09:03:34.192 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+04/07/2020 09:03:34.947 [main|StandardService] - Stopping service [Tomcat]
+04/07/2020 09:04:56.815 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4d154ccd: startup date [Tue Apr 07 09:04:56 CST 2020]; root of context hierarchy
+04/07/2020 09:04:57.398 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:04:57.486 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f8dd578b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:04:58.459 [main|ManageServiceStart] - No active profile set, falling back to default profiles: default
+04/07/2020 09:04:58.489 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59d2103b: startup date [Tue Apr 07 09:04:58 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d154ccd
+04/07/2020 09:04:59.801 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+04/07/2020 09:05:00.588 [main|GenericScope] - BeanFactory id=2a5c2bce-f94b-3769-8775-ce00e36f7438
+04/07/2020 09:05:00.690 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:05:01.045 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f8dd578b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:05:01.873 [main|TomcatWebServer] - Tomcat initialized with port(s): 8766 (http)
+04/07/2020 09:05:01.896 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:05:01.923 [main|StandardService] - Starting service [Tomcat]
+04/07/2020 09:05:01.924 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+04/07/2020 09:05:01.941 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+04/07/2020 09:05:02.236 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+04/07/2020 09:05:02.236 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 3747 ms
+04/07/2020 09:05:02.473 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+04/07/2020 09:05:02.481 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+04/07/2020 09:05:02.481 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+04/07/2020 09:05:02.481 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+04/07/2020 09:05:02.481 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+04/07/2020 09:05:02.592 [main|StandardService] - Stopping service [Tomcat]
+04/07/2020 09:06:06.304 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3012646b: startup date [Tue Apr 07 09:06:06 CST 2020]; root of context hierarchy
+04/07/2020 09:06:06.713 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:06:06.800 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$978a7e88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:06:07.893 [main|ManageServiceStart] - No active profile set, falling back to default profiles: default
+04/07/2020 09:06:07.917 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3383649e: startup date [Tue Apr 07 09:06:07 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3012646b
+04/07/2020 09:06:09.130 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+04/07/2020 09:06:09.895 [main|GenericScope] - BeanFactory id=2a5c2bce-f94b-3769-8775-ce00e36f7438
+04/07/2020 09:06:09.939 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:06:10.308 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$978a7e88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:06:11.406 [main|TomcatWebServer] - Tomcat initialized with port(s): 8766 (http)
+04/07/2020 09:06:11.430 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:06:11.453 [main|StandardService] - Starting service [Tomcat]
+04/07/2020 09:06:11.454 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+04/07/2020 09:06:11.469 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+04/07/2020 09:06:11.850 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+04/07/2020 09:06:11.851 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 3934 ms
+04/07/2020 09:06:12.092 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+04/07/2020 09:06:12.101 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+04/07/2020 09:06:12.101 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+04/07/2020 09:06:12.102 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+04/07/2020 09:06:12.102 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+04/07/2020 09:06:12.203 [main|StandardService] - Stopping service [Tomcat]
+04/07/2020 09:33:51.587 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@576d5deb: startup date [Tue Apr 07 09:33:51 CST 2020]; root of context hierarchy
+04/07/2020 09:33:52.065 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:33:52.144 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bb839316] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:33:53.120 [main|ManageServiceStart] - No active profile set, falling back to default profiles: default
+04/07/2020 09:33:53.151 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@42f3156d: startup date [Tue Apr 07 09:33:53 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@576d5deb
+04/07/2020 09:33:54.252 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+04/07/2020 09:33:55.227 [main|GenericScope] - BeanFactory id=54ecf897-87ca-3fd8-9794-49b7bce20496
+04/07/2020 09:33:55.272 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:33:55.644 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bb839316] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:33:56.777 [main|TomcatWebServer] - Tomcat initialized with port(s): 8766 (http)
+04/07/2020 09:33:56.826 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:33:56.845 [main|StandardService] - Starting service [Tomcat]
+04/07/2020 09:33:56.846 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+04/07/2020 09:33:56.861 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+04/07/2020 09:33:57.089 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+04/07/2020 09:33:57.089 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 3938 ms
+04/07/2020 09:33:57.330 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+04/07/2020 09:33:57.338 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+04/07/2020 09:33:57.338 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+04/07/2020 09:33:57.339 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+04/07/2020 09:33:57.339 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+04/07/2020 09:34:00.230 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+04/07/2020 09:34:00.276 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+04/07/2020 09:34:00.570 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04/07/2020 09:34:01.299 [main|RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@42f3156d: startup date [Tue Apr 07 09:33:53 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@576d5deb
+04/07/2020 09:34:01.542 [main|RequestMappingHandlerMapping] - Mapped "{[/company/update],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.update(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.548 [main|RequestMappingHandlerMapping] - Mapped "{[/company/delete],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.delete(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.549 [main|RequestMappingHandlerMapping] - Mapped "{[/company/getcreate],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.CompanyController.create(java.lang.String,java.lang.String)
+04/07/2020 09:34:01.549 [main|RequestMappingHandlerMapping] - Mapped "{[/company/create],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.create(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.550 [main|RequestMappingHandlerMapping] - Mapped "{[/company/select],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.select(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.553 [main|RequestMappingHandlerMapping] - Mapped "{[/user/update],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.update(com.chasepay.utilities.entity.webservice.ServletRequestData,java.util.Map<java.lang.String, java.lang.String>)
+04/07/2020 09:34:01.554 [main|RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.delete(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.555 [main|RequestMappingHandlerMapping] - Mapped "{[/user/create],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.create(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.556 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/user/active],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.active(java.lang.String,java.lang.String)
+04/07/2020 09:34:01.556 [main|RequestMappingHandlerMapping] - Mapped "{[/user/select],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.select(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:34:01.557 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/user/getregistphone],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.registPhone(java.lang.String,java.lang.String,java.lang.String)
+04/07/2020 09:34:01.558 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/user/getrgistemail],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.registEmail(java.lang.String,java.lang.String,java.lang.String)
+04/07/2020 09:34:01.558 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/login],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.login(java.lang.String,java.lang.String)
+04/07/2020 09:34:01.564 [main|RequestMappingHandlerMapping] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+04/07/2020 09:34:01.564 [main|RequestMappingHandlerMapping] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+04/07/2020 09:34:01.639 [main|SimpleUrlHandlerMapping] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04/07/2020 09:34:01.639 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04/07/2020 09:34:05.167 [main|AnnotationMBeanExporter] - Registering beans for JMX exposure on startup
+04/07/2020 09:34:05.185 [main|AnnotationMBeanExporter] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+04/07/2020 09:34:05.186 [main|AnnotationMBeanExporter] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+04/07/2020 09:34:05.187 [main|AnnotationMBeanExporter] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+04/07/2020 09:34:05.192 [main|AnnotationMBeanExporter] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+04/07/2020 09:34:05.239 [main|AnnotationMBeanExporter] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+04/07/2020 09:34:05.268 [main|AnnotationMBeanExporter] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=42f3156d,type=ConfigurationPropertiesRebinder]
+04/07/2020 09:34:05.287 [main|DefaultLifecycleProcessor] - Starting beans in phase 0
+04/07/2020 09:34:05.331 [main|InstanceInfoFactory] - Setting initial instance status as: STARTING
+04/07/2020 09:34:05.511 [main|DiscoveryClient] - Initializing Eureka in region us-east-1
+04/07/2020 09:34:06.579 [main|DiscoveryJerseyProvider] - Using JSON encoding codec LegacyJacksonJson
+04/07/2020 09:34:06.579 [main|DiscoveryJerseyProvider] - Using JSON decoding codec LegacyJacksonJson
+04/07/2020 09:34:07.387 [main|DiscoveryJerseyProvider] - Using XML encoding codec XStreamXml
+04/07/2020 09:34:07.387 [main|DiscoveryJerseyProvider] - Using XML decoding codec XStreamXml
+04/07/2020 09:34:08.039 [main|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 09:34:08.409 [main|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:34:08.409 [main|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:34:08.409 [main|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:34:08.409 [main|DiscoveryClient] - Application is null : false
+04/07/2020 09:34:08.409 [main|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:34:08.410 [main|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:34:08.410 [main|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:34:13.648 [main|DiscoveryClient] - Starting heartbeat executor: renew interval is: 30
+04/07/2020 09:34:13.654 [main|InstanceInfoReplicator] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+04/07/2020 09:34:13.675 [main|DiscoveryClient] - Discovery Client initialized at timestamp 1586223253660 with initial instances count: 0
+04/07/2020 09:34:13.682 [main|EurekaServiceRegistry] - Registering application service-manage with eureka with status UP
+04/07/2020 09:34:13.686 [main|DiscoveryClient] - Saw local status change event StatusChangeEvent [timestamp=1586223253686, current=UP, previous=STARTING]
+04/07/2020 09:34:13.740 [main|Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:34:13.742 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:34:13.938 [main|NioSelectorPool] - Using a shared selector for servlet write/read
+04/07/2020 09:34:13.987 [main|TomcatWebServer] - Tomcat started on port(s): 8766 (http) with context path ''
+04/07/2020 09:34:13.988 [main|EurekaAutoServiceRegistration] - Updating port to 8766
+04/07/2020 09:34:14.000 [main|ManageServiceStart] - Started ManageServiceStart in 24.296 seconds (JVM running for 26.208)
+04/07/2020 09:34:43.650 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:34:43.651 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:34:43.651 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:34:43.651 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:34:43.651 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:34:43.652 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:34:43.652 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:34:48.889 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:35:04.340 [http-nio-8766-exec-2|[/]] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+04/07/2020 09:35:04.340 [http-nio-8766-exec-2|DispatcherServlet] - FrameworkServlet 'dispatcherServlet': initialization started
+04/07/2020 09:35:04.435 [http-nio-8766-exec-2|DispatcherServlet] - FrameworkServlet 'dispatcherServlet': initialization completed in 94 ms
+04/07/2020 09:35:05.073 [http-nio-8766-exec-2|EpollProvider] - Starting without optional epoll library
+04/07/2020 09:35:05.078 [http-nio-8766-exec-2|KqueueProvider] - Starting without optional kqueue library
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:35:18.659 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:35:23.894 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:35:53.666 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:35:53.666 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:35:53.667 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:35:53.667 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:35:53.667 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:35:53.667 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:35:53.667 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:35:58.901 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:36:28.683 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:36:33.910 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:37:03.705 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:37:08.934 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:37:38.737 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:37:43.951 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:38:11.764 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3012646b: startup date [Tue Apr 07 09:38:11 CST 2020]; root of context hierarchy
+04/07/2020 09:38:12.294 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:38:12.388 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$978a7e88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:38:13.467 [main|ManageServiceStart] - No active profile set, falling back to default profiles: default
+04/07/2020 09:38:13.515 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3383649e: startup date [Tue Apr 07 09:38:13 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3012646b
+04/07/2020 09:38:15.084 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+04/07/2020 09:38:16.129 [main|GenericScope] - BeanFactory id=54ecf897-87ca-3fd8-9794-49b7bce20496
+04/07/2020 09:38:16.207 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+04/07/2020 09:38:16.551 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$978a7e88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04/07/2020 09:38:18.095 [main|TomcatWebServer] - Tomcat initialized with port(s): 8766 (http)
+04/07/2020 09:38:18.173 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:38:18.220 [main|StandardService] - Starting service [Tomcat]
+04/07/2020 09:38:18.220 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+04/07/2020 09:38:18.298 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+04/07/2020 09:38:18.766 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+04/07/2020 09:38:18.766 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 5251 ms
+04/07/2020 09:38:19.858 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+04/07/2020 09:38:19.874 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+04/07/2020 09:38:19.874 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+04/07/2020 09:38:19.874 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+04/07/2020 09:38:19.874 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+04/07/2020 09:38:20.966 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+04/07/2020 09:38:20.997 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+04/07/2020 09:38:21.293 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04/07/2020 09:38:22.276 [main|RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3383649e: startup date [Tue Apr 07 09:38:13 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3012646b
+04/07/2020 09:38:22.463 [main|RequestMappingHandlerMapping] - Mapped "{[/company/update],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.update(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/company/delete],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.delete(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/company/getcreate],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.CompanyController.create(java.lang.String,java.lang.String)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/company/create],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.create(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/company/select],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.CompanyController.select(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/user/update],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.update(com.chasepay.utilities.entity.webservice.ServletRequestData,java.util.Map<java.lang.String, java.lang.String>)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.delete(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/user/create],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.create(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/user/active],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.active(java.lang.String,java.lang.String)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/user/select],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.manage.controller.UserController.select(com.chasepay.utilities.entity.webservice.ServletRequestData)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/user/getregistphone],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.registPhone(java.lang.String,java.lang.String,java.lang.String)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/user/getrgistemail],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.registEmail(java.lang.String,java.lang.String,java.lang.String)
+04/07/2020 09:38:22.479 [main|RequestMappingHandlerMapping] - Mapped "{[/service/manage/login],methods=[GET]}" onto public java.lang.String com.chasepay.manage.controller.UserController.login(java.lang.String,java.lang.String)
+04/07/2020 09:38:22.495 [main|RequestMappingHandlerMapping] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+04/07/2020 09:38:22.495 [main|RequestMappingHandlerMapping] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+04/07/2020 09:38:22.573 [main|SimpleUrlHandlerMapping] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04/07/2020 09:38:22.573 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04/07/2020 09:38:25.852 [main|AnnotationMBeanExporter] - Registering beans for JMX exposure on startup
+04/07/2020 09:38:25.930 [main|AnnotationMBeanExporter] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+04/07/2020 09:38:25.930 [main|AnnotationMBeanExporter] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+04/07/2020 09:38:25.945 [main|AnnotationMBeanExporter] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+04/07/2020 09:38:25.945 [main|AnnotationMBeanExporter] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+04/07/2020 09:38:25.992 [main|AnnotationMBeanExporter] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+04/07/2020 09:38:26.039 [main|AnnotationMBeanExporter] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3383649e,type=ConfigurationPropertiesRebinder]
+04/07/2020 09:38:26.148 [main|DefaultLifecycleProcessor] - Starting beans in phase 0
+04/07/2020 09:38:26.164 [main|InstanceInfoFactory] - Setting initial instance status as: STARTING
+04/07/2020 09:38:26.273 [main|DiscoveryClient] - Initializing Eureka in region us-east-1
+04/07/2020 09:38:27.178 [main|DiscoveryJerseyProvider] - Using JSON encoding codec LegacyJacksonJson
+04/07/2020 09:38:27.178 [main|DiscoveryJerseyProvider] - Using JSON decoding codec LegacyJacksonJson
+04/07/2020 09:38:27.412 [main|DiscoveryJerseyProvider] - Using XML encoding codec XStreamXml
+04/07/2020 09:38:27.412 [main|DiscoveryJerseyProvider] - Using XML decoding codec XStreamXml
+04/07/2020 09:38:27.802 [main|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Application is null : false
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:38:28.176 [main|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:38:33.311 [main|DiscoveryClient] - Starting heartbeat executor: renew interval is: 30
+04/07/2020 09:38:33.311 [main|InstanceInfoReplicator] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+04/07/2020 09:38:33.327 [main|DiscoveryClient] - Discovery Client initialized at timestamp 1586223513327 with initial instances count: 0
+04/07/2020 09:38:33.342 [main|EurekaServiceRegistry] - Registering application service-manage with eureka with status UP
+04/07/2020 09:38:33.342 [main|DiscoveryClient] - Saw local status change event StatusChangeEvent [timestamp=1586223513342, current=UP, previous=STARTING]
+04/07/2020 09:38:33.389 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:38:33.405 [main|Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8766"]
+04/07/2020 09:38:33.420 [main|NioSelectorPool] - Using a shared selector for servlet write/read
+04/07/2020 09:38:33.483 [main|TomcatWebServer] - Tomcat started on port(s): 8766 (http) with context path ''
+04/07/2020 09:38:33.483 [main|EurekaAutoServiceRegistration] - Updating port to 8766
+04/07/2020 09:38:33.483 [main|ManageServiceStart] - Started ManageServiceStart in 24.402 seconds (JVM running for 26.306)
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:39:03.328 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:39:08.487 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:39:08.657 [http-nio-8766-exec-1|[/]] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+04/07/2020 09:39:08.658 [http-nio-8766-exec-1|DispatcherServlet] - FrameworkServlet 'dispatcherServlet': initialization started
+04/07/2020 09:39:08.689 [http-nio-8766-exec-1|DispatcherServlet] - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+04/07/2020 09:39:09.072 [http-nio-8766-exec-1|EpollProvider] - Starting without optional epoll library
+04/07/2020 09:39:09.090 [http-nio-8766-exec-1|KqueueProvider] - Starting without optional kqueue library
+04/07/2020 09:39:10.341 [http-nio-8766-exec-1|UserServiceImpl] - generate active code.userName=zhaoming,password=1987o2o2,email=waxdyy2007@126.com
+04/07/2020 09:39:10.457 [http-nio-8766-exec-1|UserServiceImpl] - generate active code.activeCode=[$6$CPayAccWebActslt$p5Q8DDfZiTIQcEVsituzALZ7lk3G7ewLKXxnswLEQRwpHzJVzdR0Ou9RrCFhBeYu.K9skiAA1kA95ffRqzuqV/]
+04/07/2020 09:39:10.525 [http-nio-8766-exec-1|EmailPropertyReader] - Start to read email.properties
+04/07/2020 09:39:10.525 [http-nio-8766-exec-1|EmailPropertyReader] - email.properties: 
+[host=smtp.126.com
+, port=465
+, from=waxdyy2007@126.com
+, token=$6$CPayEmailLuca$.8NAuncn.CGp.TbZaokEGMjmboovnPGhTK.tSkZeN/wH8df.wxxrww0RvruHXEfNlb6M4sPllW5cxbjc6klL6/
+, protocol=smtp]
+04/07/2020 09:39:13.472 [http-nio-8766-exec-1|EmailFunction] - Sent [[Chasepay]please active your account]to [waxdyy2007@126.com],
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:39:38.357 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:39:43.503 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:39:56.405 [http-nio-8766-exec-4|UserController] - get regist info from redis.userName=zhaoming,password=1987o2o2,email=waxdyy2007@126.com
+04/07/2020 09:39:56.439 [http-nio-8766-exec-4|UserController] - generate active code by redis info.activeCode=[$6$CPayAccWebActslt$p5Q8DDfZiTIQcEVsituzALZ7lk3G7ewLKXxnswLEQRwpHzJVzdR0Ou9RrCFhBeYu.K9skiAA1kA95ffRqzuqV/]
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - {DATASOURCE_product}
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseUrl=jdbc:mysql://127.0.0.1:3306/new_genieseller?useSSL=false&autoReconnect=true&serverTimezone=UTC
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.jdbc.Driver
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseRelationTables1= entity|entity_attribute|entity_attribute_int|entity_attribute_date|entity_group_relation
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - {DATASOURCE_db2}
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseHost=127.0.0.1
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabasePort=3306
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.cj.jdbc.Driver
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 09:39:56.624 [http-nio-8766-exec-4|DatabaseSourceReader] - DatabaseRelationTables1=
+04/07/2020 09:39:56.798 [http-nio-8766-exec-4|ChasepayDatabaseConnection] - Init DB OK
+04/07/2020 09:39:59.055 [http-nio-8766-exec-4|ChasePayDatabaseMetaData] - Get db meta data, ht=[entity_attribute, entity_attribute_def, entity_type_description, entity_attribute_group, entity_attribute_int, entity_group_relation, entity_attribute_date, entity_detail_file, entity]
+04/07/2020 09:39:59.055 [http-nio-8766-exec-4|DatabaseFunction] - sql is : insert into entity (entity_type)  values (?)
+04/07/2020 09:39:59.355 [http-nio-8766-exec-4|DatabaseFunction] - sql is :select *  from entity_attribute_def
+04/07/2020 09:39:59.372 [http-nio-8766-exec-4|DatabaseFunction] - update Batch :
+04/07/2020 09:39:59.373 [http-nio-8766-exec-4|DatabaseFunction] - sql is :insert into entity_attribute (entity_id,attribute_def_id,attribute_value)  values (1,23,'zhaoming')
+04/07/2020 09:39:59.373 [http-nio-8766-exec-4|DatabaseFunction] - sql is :insert into entity_attribute (entity_id,attribute_def_id,attribute_value)  values (1,21,'waxdyy2007@126.com')
+04/07/2020 09:39:59.373 [http-nio-8766-exec-4|DatabaseFunction] - sql is :insert into entity_attribute (entity_id,attribute_def_id,attribute_value)  values (1,22,'$6$CPayAccWebLuca$him33p5zSUcVkrdCZRwXIDUftkhBxgB5Sv7SgK1Fukm3fHo3etaTGoxFh8QdmHn9lU2TQUBUtTAqZ8.a/CYoM0')
+04/07/2020 09:39:59.373 [http-nio-8766-exec-4|DatabaseFunction] - sql is :insert into entity_attribute (entity_id,attribute_def_id,attribute_value)  values (1,27,'1586223596455')
+04/07/2020 09:39:59.389 [http-nio-8766-exec-4|DatabaseFunction] - succeed to update bulk :[I@3c748bb6
+04/07/2020 09:39:59.562 [http-nio-8766-exec-4|ChasepayDatabaseUtil] - commit
+04/07/2020 09:39:59.564 [http-nio-8766-exec-4|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:40:13.380 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:40:18.520 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:40:48.407 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:40:53.538 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:41:23.432 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:41:28.560 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:41:58.447 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:42:03.590 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:42:33.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:42:38.606 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:43:08.484 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:43:13.623 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:43:28.198 [AsyncResolver-bootstrap-executor-0|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 09:43:39.043 [main|DatabaseSourceReader] - {DATASOURCE_product}
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseUrl=jdbc:mysql://127.0.0.1:3306/new_genieseller?useSSL=false&autoReconnect=true&serverTimezone=UTC
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.jdbc.Driver
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseRelationTables1= entity|entity_attribute|entity_attribute_int|entity_attribute_date|entity_group_relation
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - {DATASOURCE_db2}
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseHost=127.0.0.1
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabasePort=3306
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.cj.jdbc.Driver
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 09:43:39.058 [main|DatabaseSourceReader] - DatabaseRelationTables1=
+04/07/2020 09:43:39.090 [main|ChasepayDatabaseConnection] - Init DB OK
+04/07/2020 09:43:39.840 [main|ChasePayDatabaseMetaData] - Get db meta data, ht=[entity_attribute, entity_attribute_def, entity_type_description, entity_attribute_group, entity_attribute_int, entity_group_relation, entity_attribute_date, entity_detail_file, entity]
+04/07/2020 09:43:39.856 [main|DatabaseFunction] - sql is :select *  from entity_attribute_def
+04/07/2020 09:43:39.872 [main|DatabaseFunction] - sql is :select *  from entity_attribute where attribute_def_id=? and attribute_value=?
+04/07/2020 09:43:39.872 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:43:39.872 [main|DatabaseFunction] - sql is :select *  from entity_attribute where entity_id=? and attribute_type=?
+04/07/2020 09:43:39.887 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:43:39.887 [main|DatabaseFunction] - sql is :select *  from entity_attribute_int where entity_id=? and attribute_type=?
+04/07/2020 09:43:39.887 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:43:39.887 [main|DatabaseFunction] - sql is :select *  from entity_attribute_date where entity_id=? and attribute_type=?
+04/07/2020 09:43:39.887 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:43:39.887 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:43:43.515 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:43:48.642 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:44:18.523 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:44:23.664 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:44:53.541 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:44:58.689 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:45:28.552 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:45:33.701 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:46:03.564 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:46:08.708 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:46:38.584 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:46:43.724 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:47:13.587 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:47:18.750 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:47:48.601 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:47:53.759 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:48:23.622 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:48:28.207 [AsyncResolver-bootstrap-executor-0|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 09:48:28.784 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:48:58.635 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:49:03.795 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:49:33.647 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:49:38.804 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:49:51.549 [http-nio-8766-exec-8|DatabaseFunction] - sql is :select *  from entity_attribute where attribute_def_id=? and attribute_value=?
+04/07/2020 09:49:51.551 [http-nio-8766-exec-8|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:49:51.551 [http-nio-8766-exec-8|DatabaseFunction] - sql is :select *  from entity_attribute where entity_id=? and attribute_type=?
+04/07/2020 09:49:51.552 [http-nio-8766-exec-8|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:49:51.552 [http-nio-8766-exec-8|DatabaseFunction] - sql is :select *  from entity_attribute_int where entity_id=? and attribute_type=?
+04/07/2020 09:49:51.553 [http-nio-8766-exec-8|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:49:51.553 [http-nio-8766-exec-8|DatabaseFunction] - sql is :select *  from entity_attribute_date where entity_id=? and attribute_type=?
+04/07/2020 09:49:51.554 [http-nio-8766-exec-8|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:49:51.554 [http-nio-8766-exec-8|ChasepayDatabaseUtil] - call connection close
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:50:08.663 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:50:13.821 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:50:43.672 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:50:48.830 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:51:18.681 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:51:23.838 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:51:53.693 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:51:58.853 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:52:28.700 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:52:33.908 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:53:03.714 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:53:08.921 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:53:28.228 [AsyncResolver-bootstrap-executor-0|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:53:38.736 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:53:43.941 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:54:13.754 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:54:18.956 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:54:48.782 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:54:53.971 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:55:23.801 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:55:28.992 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:55:58.815 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:56:04.024 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:56:33.842 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:56:39.032 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:57:08.857 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:57:14.052 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:57:43.876 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:57:49.067 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:58:18.921 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:58:24.079 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:58:28.235 [AsyncResolver-bootstrap-executor-0|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:58:53.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:58:59.084 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 09:59:28.997 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 09:59:34.095 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:00:04.005 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:00:09.101 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:00:39.047 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:00:44.127 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:01:14.056 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:01:19.136 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:01:49.075 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:01:54.156 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:02:24.095 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:02:29.172 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:02:59.117 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:03:04.193 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:03:28.247 [AsyncResolver-bootstrap-executor-0|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:03:34.142 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:03:39.235 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:04:09.147 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:04:14.243 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:04:44.163 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:04:49.259 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:05:19.167 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:05:24.277 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:05:54.174 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:05:59.285 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:06:29.183 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:06:34.311 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:07:04.189 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:07:09.322 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:07:39.208 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:07:44.336 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+04/07/2020 10:08:14.229 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+04/07/2020 10:08:19.350 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-MANAGE/zhaoming-PC:service-manage:8766: registering service...
+04/07/2020 10:08:28.261 [AsyncResolver-bootstrap-executor-0|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - {DATASOURCE_product}
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseUrl=jdbc:mysql://127.0.0.1:3306/new_genieseller?useSSL=false&autoReconnect=true&serverTimezone=UTC
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.jdbc.Driver
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseRelationTables1= entity|entity_attribute|entity_attribute_int|entity_attribute_date|entity_group_relation
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - {DATASOURCE_db2}
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseHost=127.0.0.1
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabasePort=3306
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.cj.jdbc.Driver
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 10:10:31.044 [main|DatabaseSourceReader] - DatabaseRelationTables1=
+04/07/2020 10:10:31.077 [main|ChasepayDatabaseConnection] - Init DB OK
+04/07/2020 10:10:31.894 [main|ChasePayDatabaseMetaData] - Get db meta data, ht=[entity_attribute, entity_attribute_def, entity_type_description, entity_attribute_group, entity_attribute_int, entity_group_relation, entity_attribute_date, entity_detail_file, entity]
+04/07/2020 10:10:31.894 [main|DatabaseFunction] - sql is :select *  from entity_attribute_def
+04/07/2020 10:10:31.909 [main|DatabaseFunction] - sql is :select *  from entity_attribute where attribute_def_id=? and attribute_value=?
+04/07/2020 10:10:31.909 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:10:31.909 [main|DatabaseFunction] - sql is :select *  from entity_attribute where entity_id=? and attribute_type=?
+04/07/2020 10:10:31.925 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:10:31.925 [main|DatabaseFunction] - sql is :select *  from entity_attribute_int where entity_id=? and attribute_type=?
+04/07/2020 10:10:31.925 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:10:31.925 [main|DatabaseFunction] - sql is :select *  from entity_attribute_date where entity_id=? and attribute_type=?
+04/07/2020 10:10:31.925 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:10:31.925 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:14.657 [main|DatabaseSourceReader] - {DATASOURCE_product}
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseUrl=jdbc:mysql://127.0.0.1:3306/new_genieseller?useSSL=false&autoReconnect=true&serverTimezone=UTC
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.jdbc.Driver
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseRelationTables1= entity|entity_attribute|entity_attribute_int|entity_attribute_date|entity_group_relation
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - {DATASOURCE_db2}
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseHost=127.0.0.1
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabasePort=3306
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.cj.jdbc.Driver
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 10:11:14.688 [main|DatabaseSourceReader] - DatabaseRelationTables1=
+04/07/2020 10:11:14.720 [main|ChasepayDatabaseConnection] - Init DB OK
+04/07/2020 10:11:15.485 [main|ChasePayDatabaseMetaData] - Get db meta data, ht=[entity_attribute, entity_attribute_def, entity_type_description, entity_attribute_group, entity_attribute_int, entity_group_relation, entity_attribute_date, entity_detail_file, entity]
+04/07/2020 10:11:15.485 [main|DatabaseFunction] - sql is :select *  from entity_attribute_def
+04/07/2020 10:11:15.501 [main|DatabaseFunction] - sql is :select *  from entity_attribute where attribute_def_id=? and attribute_value=?
+04/07/2020 10:11:15.501 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:15.501 [main|DatabaseFunction] - sql is :select *  from entity_attribute where entity_id=? and attribute_type=?
+04/07/2020 10:11:15.501 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:15.501 [main|DatabaseFunction] - sql is :select *  from entity_attribute_int where entity_id=? and attribute_type=?
+04/07/2020 10:11:15.501 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:15.501 [main|DatabaseFunction] - sql is :select *  from entity_attribute_date where entity_id=? and attribute_type=?
+04/07/2020 10:11:15.501 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:15.501 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:58.451 [main|DatabaseSourceReader] - {DATASOURCE_product}
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseUrl=jdbc:mysql://127.0.0.1:3306/new_genieseller?useSSL=false&autoReconnect=true&serverTimezone=UTC
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.jdbc.Driver
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseRelationTables1= entity|entity_attribute|entity_attribute_int|entity_attribute_date|entity_group_relation
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - {DATASOURCE_db2}
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseHost=127.0.0.1
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabasePort=3306
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseName=new_genieseller
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseUser=root
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabasePassword=1987o2o2
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseDriverClass=com.mysql.cj.jdbc.Driver
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabasePoolInitSize=10
+04/07/2020 10:11:58.466 [main|DatabaseSourceReader] - DatabaseRelationTables1=
+04/07/2020 10:11:58.497 [main|ChasepayDatabaseConnection] - Init DB OK
+04/07/2020 10:11:59.217 [main|ChasePayDatabaseMetaData] - Get db meta data, ht=[entity_attribute, entity_attribute_def, entity_type_description, entity_attribute_group, entity_attribute_int, entity_group_relation, entity_attribute_date, entity_detail_file, entity]
+04/07/2020 10:11:59.217 [main|DatabaseFunction] - sql is :select *  from entity_attribute_def
+04/07/2020 10:11:59.233 [main|DatabaseFunction] - sql is :select *  from entity_attribute where attribute_def_id=? and attribute_value=?
+04/07/2020 10:11:59.233 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:59.233 [main|DatabaseFunction] - sql is :select *  from entity_attribute where entity_id=? and attribute_type=?
+04/07/2020 10:11:59.233 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:59.233 [main|DatabaseFunction] - sql is :select *  from entity_attribute_int where entity_id=? and attribute_type=?
+04/07/2020 10:11:59.233 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:59.233 [main|DatabaseFunction] - sql is :select *  from entity_attribute_date where entity_id=? and attribute_type=?
+04/07/2020 10:11:59.233 [main|ChasepayDatabaseUtil] - call connection close
+04/07/2020 10:11:59.233 [main|ChasepayDatabaseUtil] - call connection close

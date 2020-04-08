@@ -1,0 +1,41 @@
+package com.chasepay.manage.service.impl;
+
+import java.util.List;
+import java.util.Map;
+
+import com.chasepay.manage.service.UserService;
+import com.chasepay.utilities.entity.Entity;
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public String create(Map<String, String> map, Entity entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean update(Map<String, String> map, Entity entity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delete(Map<String, String> map) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Entity> select(Map<String, String> map) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Entity> selectList(Map<String, String> map) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,62 @@
+package com.chasepay.utilities.util;
+
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESedeKeySpec;
+
+import org.apache.commons.codec.binary.Base64;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class DesCryptUtil 
+{
+	private static final String key = "???RE?";
+	
+	private static Logger logger = LogManager.getLogger(ServletUtil.class);
+	
+	public static String encrypt(String data)
+	{
+		try 
+		{
+			DESedeKeySpec DESedeKeySpec = new DESedeKeySpec(key.getBytes());
+			SecretKeyFactory secretKeyFactory = SecretKeyFactory.getInstance("DES");
+			SecretKey secretKey = secretKeyFactory.generateSecret(DESedeKeySpec);
+			Cipher cipher = Cipher.getInstance("DES");
+			cipher.init(Cipher.ENCRYPT_MODE, secretKey);
+			byte[] doFinal = cipher.doFinal(data.getBytes());
+			return Base64.encodeBase64String(doFinal);
+		} 
+		catch (Exception e) 
+		{
+			logger.error("Des encrypt error.");
+			logger.error(e.getMessage(),e);
+			return null;
+		}
+		
+	}
+	
+	
+	public static String decrypt(String data)
+	{
+		try 
+		{
+			byte[] decodeBase64 = Base64.decodeBase64(data);
+			DESedeKeySpec DESedeKeySpec = new DESedeKeySpec(key.getBytes());
+			SecretKeyFactory secretKeyFactory = SecretKeyFactory.getInstance("DES");
+			SecretKey secretKey = secretKeyFactory.generateSecret(DESedeKeySpec);
+			Cipher cipher = Cipher.getInstance("DES");
+			cipher.init(Cipher.DECRYPT_MODE, secretKey);
+			byte[] doFinal = cipher.doFinal(decodeBase64);
+			return new String(doFinal);
+		} 
+		catch (Exception e) 
+		{
+			logger.error("Des decrypt error.");
+			logger.error(e.getMessage(),e);
+			return null;
+		}
+		
+	}
+
+}

@@ -1,0 +1,77 @@
+package com.chasepay.utilities.util;
+
+class StringConverter {
+
+    private static final char   CHARARRY[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd','e', 'f'};
+
+    private static final String HEXINDEX = "0123456789abcdef          ABCDEF";
+
+    private static final String KEY = "3he74f545810403828257951cbdd1234562974983040erg7";
+
+
+    public static byte[] hexToByte(String s) {
+	      int  l = s.length() / 2;
+
+	      byte data[] = new byte[l];
+
+	int  j = 0;
+
+
+
+	for (int i = 0; i < l; i++) {
+
+	    char c = s.charAt(j++);
+
+	    int  n, b;
+
+
+
+	    n = HEXINDEX.indexOf(c);
+
+	    b = (n & 0xf) << 4;
+
+	    c = s.charAt(j++);
+
+	    n = HEXINDEX.indexOf(c);
+
+	    b += (n & 0xf);
+
+	    data[i] = (byte) b;
+
+	}
+
+
+
+	return data;
+
+    }
+
+
+
+    public static String byteToHex(byte b[]) {
+
+	int	     len = b.length;
+
+	StringBuffer s = new StringBuffer();
+
+
+
+	for (int i = 0; i < len; i++) {
+
+	    int c = ((int) b[i]) & 0xff;
+
+
+
+	    s.append(HEXCHAR[c >> 4 & 0xf]);
+
+	    s.append(HEXCHAR[c & 0xf]);
+
+	}
+
+
+
+	return s.toString();
+
+    }
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.chasepay.zuul.filter.loginFilter&apos; to &apos;AuthorityFilter&apos;&#x0D;&#x0A;- Original project: &apos;zuul&apos;&#x0D;&#x0A;- Original element: &apos;com.chasepay.zuul.filter.loginFilter&apos;&#x0D;&#x0A;- Renamed element: &apos;com.chasepay.zuul.filter.AuthorityFilter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;loginFilter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.chasepay.zuul.filter{loginFilter.java[loginFilter" matchStrategy="1" name="AuthorityFilter" qualified="false" references="true" similarDeclarations="false" stamp="1586231842071" textual="false" version="1.0"/>
+</session>

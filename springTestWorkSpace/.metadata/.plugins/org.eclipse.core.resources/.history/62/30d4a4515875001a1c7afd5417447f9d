@@ -1,0 +1,62 @@
+package com.chasepay.manage;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import com.chasepay.configuration.SystemBaseHome;
+import com.chasepay.manage.service.UserService;
+import com.chasepay.manage.service.impl.UserServiceImpl;
+import com.chasepay.utilities.constant.EntityAttributeConstants;
+import com.chasepay.utilities.constant.EntityConstant;
+import com.chasepay.utilities.entity.Entity;
+import com.chasepay.utilities.entity.Entity_Attribute;
+import com.chasepay.utilities.util.CommonUtil;
+import com.chasepay.utilities.util.PasswordHashUtil;
+
+public class TestUser {
+	
+	public static void main(String[] args) {
+		
+		String path = "D:\\workspace\\chasepay_service_product\\";
+		SystemBaseHome.getInstance().setSystemHome(path);
+		
+		PasswordHashUtil passwordHashUtil = new PasswordHashUtil();
+		
+		UserService userService = new UserServiceImpl();
+		Entity entity = new Entity();
+		entity.setEntity_type(EntityConstant.ENTITY_TYPE_COMPANY);
+		List<Entity_Attribute> attributes = new ArrayList<Entity_Attribute>();
+		Entity_Attribute entity_Attribute = new Entity_Attribute();
+
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_user_name);
+		entity_Attribute.setAttribute_value("zhaoming");
+		attributes.add(entity_Attribute);
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_user_password);
+		entity_Attribute.setAttribute_value(passwordHashUtil.getPassword("1987o2o2".getBytes()));
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_user_create_time);
+		entity_Attribute.setAttribute_value(CommonUtil.getCurrentTimeMillis());
+		attributes.add(entity_Attribute);
+		entity.setAttribute_value_list(attributes);
+		
+		Map<String,String> map = new HashMap<String,String>();
+		map.put(EntityConstant.company_id, null);
+		String id = userService.create(map, entity);
+
+		if(null!=id)
+		{
+			System.out.println(id);
+		}
+		else
+		{
+			System.out.println("null");
+		}
+	}
+
+}

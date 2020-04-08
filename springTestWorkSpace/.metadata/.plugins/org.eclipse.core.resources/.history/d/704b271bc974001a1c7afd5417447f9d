@@ -1,0 +1,18 @@
+package com.chasepay.email;
+
+public class EmailFunctionConstant {
+	
+	public static final String PROP_FOLDER = "properties/";
+	public static final String EMAIL_PROP = "email.properties";
+	//public static final String EMAIL_PSSWD = "Ch@sepay123";
+	//public static final String EMAIL_PSSWD = "oyyukfrbyuzbnkza";
+	public static final String EMAIL_PSSWD = "mieetzgjgqifbfyi";
+	
+	public static final String EMAIL_HOST = "EmailHost";
+	public static final String EMAIL_PORT = "EmailPort";
+	public static final String EMAIL_FROM = "EmailFrom";
+	public static final String EMAIL_TOKEN = "EmailToken";
+	public static final String EMAIL_PROTOCOL = "EmailProtocol";
+	public static final String EMAIL_FROM2 = "EmailFrom2";
+	public static final String NOTIFY_SUCC_STMT = "NotifySuccStmt";
+}

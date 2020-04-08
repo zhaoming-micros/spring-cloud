@@ -1,0 +1,22 @@
+package com.chasepay.accounting.email;
+
+import org.apache.commons.codec.digest.Crypt;
+
+public class Util {
+	
+	private static final String SHA512_PREFIX = "$6$";
+	private static final String PSSD_SLT = "CPayEmailLuca";
+	
+	public String getPassword(byte[] keyBytes)
+	{
+		return Crypt.crypt(keyBytes, SHA512_PREFIX+PSSD_SLT);
+	}
+	
+	public boolean isPasswdCorrect(byte[] keyBytes, String token)
+	{
+		if (token == null || keyBytes == null)
+			return false;
+		
+		return token.equals(Crypt.crypt(keyBytes, SHA512_PREFIX+PSSD_SLT));
+	}
+}

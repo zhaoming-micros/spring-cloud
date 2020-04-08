@@ -1,0 +1,5 @@
+package com.chasepay.manage.service.impl;
+
+public class UserServiceImpl {
+
+}

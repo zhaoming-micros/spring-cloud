@@ -1,0 +1,55 @@
+package com.chasepay.utilities.util;
+
+class StringConverter {
+
+	
+	private static final char CHARARRY[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd','e', 'f'};
+    private static final String TARGETSTRING = "0123456789abcdef          ABCDEF";
+
+   
+
+
+    public static byte[] getBytes(String s) 
+    {
+    	int  j = 0;
+	    int  length = s.length() / 2;
+	    byte data[] = new byte[length];
+	      
+	    for (int i = 0; i < length; i++) 
+	    {
+	    	int  position, finalByte;
+	    	char currentChar = s.charAt(j++);
+	        position = TARGETSTRING.indexOf(currentChar);
+	        finalByte = (position & 0xff) << 4;
+
+	        currentChar = s.charAt(j++);
+	        position = TARGETSTRING.indexOf(currentChar);
+	        finalByte += (position & 0xff);
+
+	        data[i] = (byte) finalByte;
+	    }
+	    return data;
+
+    }
+
+
+
+    public static String getHex(byte bytes[]) 
+    {
+
+	  int length = bytes.length;
+
+	  StringBuilder s = new StringBuilder();
+
+	  for (int i = 0; i < length; i++)
+	  {
+
+	      int value = ((int) bytes[i]) & 0xff;
+	      s.append(CHARARRY[value >> 4 & 0xff]);
+	      s.append(CHARARRY[value & 0xf]);
+	  }
+	  return s.toString();
+
+    }
+}
+

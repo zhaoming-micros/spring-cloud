@@ -1,0 +1,38 @@
+package com.chasepay.utilities.util;
+
+class StringConverter {
+
+
+
+    private static final String HEXINDEX = "0123456789abcdefABCDEF";
+
+    private static final String key = "21816hfahfa63189hfkafa7asdfghj7y";
+
+
+
+    public static byte[] getKeyBytes() 
+    {
+
+	    byte data[] = new byte[32];
+	    int  j = 0;
+	    for (int i = 0; i < 32; i++) 
+	    {
+	       char c = key.charAt(j++);
+	       int  n, b;   
+	       n = HEXINDEX.indexOf(c);
+	       b = (n & 0xf) << 4;
+	       c = key.charAt(j++);
+	       n = HEXINDEX.indexOf(c);
+	       b += (n & 0xf);
+	       data[i] = (byte) b;
+	    }
+	    return data;
+
+    }
+
+
+
+
+   
+}
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="error">
+<CustomLevels> 
+<CustomLevel name="MODULE_LOG" intLevel="150" /> 
+<CustomLevel name="LOGIN_LOG" intLevel="350" /> 
+<CustomLevel name="LOGIN_FAIL_LOG" intLevel="360" /> 
+<CustomLevel name="URL_LOG" intLevel="410" /> 
+</CustomLevels>
+
+<Appenders>
+<RollingFile append="true" filePattern="${log4j:configParentLocation}/../log/dbaudit-%d{yyyy-MM-dd}.log" fileName="${log4j:configParentLocation}/../log/dbaudit.log" name="dbauditlog">
+<PatternLayout>
+<Pattern>%d{MM/dd/yyyy HH:mm:ss} %msg%n</Pattern>
+</PatternLayout>
+<Policies>
+<TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+</Policies>
+<DefaultRolloverStrategy max="50"/>
+<Filters>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="FATAL"/>
+</Filters>
+</RollingFile>
+
+<File append="true" fileName="${log4j:configParentLocation}/../log/module.log" name="modulelog">
+<Filters>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="FATAL"/>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="MODULE_LOG"/>
+</Filters>
+<PatternLayout pattern="%d{MM/dd/yyyy HH:mm:ss.SSS} %msg%n"/>
+</File>
+
+<RollingFile append="true" filePattern="${log4j:configParentLocation}/../log/login-%d{yyyy-MM-dd}.log" fileName="${log4j:configParentLocation}/../log/login.log" name="loginlog">
+<PatternLayout>
+<Pattern>%d{MM/dd/yyyy HH:mm:ss} %msg%n</Pattern>
+</PatternLayout>
+<Policies>
+<TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+</Policies>
+<DefaultRolloverStrategy max="50"/>
+<Filters>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="FATAL"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="MODULE_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="ERROR"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="WARN"/>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="LOGIN_LOG"/>
+</Filters>
+</RollingFile>
+
+<RollingFile append="true" filePattern="${log4j:configParentLocation}/../log/login-fail-%d{yyyy-MM-dd}.log" fileName="${log4j:configParentLocation}/../log/login-fail.log" name="login_faillog">
+<PatternLayout>
+<Pattern>%d{MM/dd/yyyy HH:mm:ss} %msg%n</Pattern>
+</PatternLayout>
+<Policies>
+<TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+</Policies>
+<DefaultRolloverStrategy max="50"/>
+<Filters>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="FATAL"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="MODULE_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="ERROR"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="WARN"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="LOGIN_LOG"/>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="LOGIN_FAIL_LOG"/>
+</Filters>
+</RollingFile>
+
+<RollingFile append="true" filePattern="${log4j:configParentLocation}/../log/info-%d{yyyy-MM-dd}.log" fileName="${log4j:configParentLocation}/../log/info.log" name="infolog">
+<PatternLayout>
+<Pattern>%d{MM/dd/yyyy HH:mm:ss.SSS} [%t|%c{1}] - %msg%n</Pattern>
+</PatternLayout>
+<Policies>
+<TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+</Policies>
+<Filters>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="ERROR"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="FATAL"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="MODULE_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="LOGIN_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="LOGIN_FAIL_LOG"/>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="INFO"/>
+</Filters>
+</RollingFile>
+
+<RollingFile append="true" filePattern="${log4j:configParentLocation}/../log/requestURI-%d{yyyy-MM-dd}.log" fileName="${log4j:configParentLocation}/../log/requestURI.log" name="requestURIlog">
+<PatternLayout>
+<Pattern>%d{MM/dd/yyyy HH:mm:ss.SSS} [%t|%c{1}] - %msg%n</Pattern>
+</PatternLayout>
+<Policies>
+<TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+</Policies>
+<Filters>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="ERROR"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="FATAL"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="MODULE_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="LOGIN_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="LOGIN_FAIL_LOG"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="INFO"/>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="URL_LOG"/>
+</Filters>
+</RollingFile>
+
+<File append="true" fileName="${log4j:configParentLocation}/../log/system.log" name="systemlog">
+<Filters>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="FATAL"/>
+<ThresholdFilter onMismatch="NEUTRAL" onMatch="DENY" level="MODULE_LOG"/>
+<ThresholdFilter onMismatch="DENY" onMatch="ACCEPT" level="ERROR"/>
+</Filters>
+<PatternLayout pattern="%d{MM/dd/yyyy HH:mm:ss.SSS} [%t|%c{1}] - %msg%ex{full}%n"/>
+</File>
+
+</Appenders>
+<Loggers>
+<Root level="debug">
+<AppenderRef ref="infolog"/>
+<AppenderRef ref="systemlog"/>
+<AppenderRef ref="modulelog"/>
+<AppenderRef ref="login_faillog"/>
+<AppenderRef ref="loginlog"/>
+<AppenderRef ref="dbauditlog"/>
+<AppenderRef ref="requestURIlog"/>
+</Root>
+</Loggers>
+</Configuration>

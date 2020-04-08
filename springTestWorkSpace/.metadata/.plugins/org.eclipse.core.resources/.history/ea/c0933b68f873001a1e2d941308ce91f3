@@ -1,0 +1,5 @@
+package com.chasepay.utilities.util;
+
+public class IncreIdGenerator {
+
+}

@@ -1,0 +1,108 @@
+03/26/2020 18:02:54.096 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6bd61f98: startup date [Thu Mar 26 18:02:54 CST 2020]; root of context hierarchy
+03/26/2020 18:02:55.043 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 18:02:55.199 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76ccea4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 18:02:56.784 [main|ProductServiceStart] - The following profiles are active: dev
+03/26/2020 18:02:56.846 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b968a76: startup date [Thu Mar 26 18:02:56 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6bd61f98
+03/26/2020 18:02:58.696 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+03/26/2020 18:02:59.835 [main|GenericScope] - BeanFactory id=98991674-fcdf-3f88-9a6b-ffa04e4dc261
+03/26/2020 18:02:59.939 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 18:03:00.660 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76ccea4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 18:03:02.330 [main|TomcatWebServer] - Tomcat initialized with port(s): 8770 (http)
+03/26/2020 18:03:02.392 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8770"]
+03/26/2020 18:03:02.423 [main|StandardService] - Starting service [Tomcat]
+03/26/2020 18:03:02.423 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+03/26/2020 18:03:02.455 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+03/26/2020 18:03:02.907 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+03/26/2020 18:03:02.907 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 6061 ms
+03/26/2020 18:03:03.310 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+03/26/2020 18:03:03.325 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/26/2020 18:03:03.325 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/26/2020 18:03:03.325 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/26/2020 18:03:03.325 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+03/26/2020 18:03:03.435 [main|StandardService] - Stopping service [Tomcat]
+03/26/2020 18:06:50.751 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2e6a8155: startup date [Thu Mar 26 18:06:50 CST 2020]; root of context hierarchy
+03/26/2020 18:06:51.443 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 18:06:51.537 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e311a78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 18:06:52.756 [main|ProductServiceStart] - The following profiles are active: dev
+03/26/2020 18:06:52.806 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d24ffa1: startup date [Thu Mar 26 18:06:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2e6a8155
+03/26/2020 18:06:53.858 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+03/26/2020 18:06:54.595 [main|GenericScope] - BeanFactory id=98991674-fcdf-3f88-9a6b-ffa04e4dc261
+03/26/2020 18:06:54.643 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 18:06:54.990 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e311a78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 18:06:56.268 [main|TomcatWebServer] - Tomcat initialized with port(s): 8770 (http)
+03/26/2020 18:06:56.300 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8770"]
+03/26/2020 18:06:56.331 [main|StandardService] - Starting service [Tomcat]
+03/26/2020 18:06:56.331 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+03/26/2020 18:06:56.366 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+03/26/2020 18:06:57.012 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+03/26/2020 18:06:57.012 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 4207 ms
+03/26/2020 18:06:57.437 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+03/26/2020 18:06:57.452 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/26/2020 18:06:57.452 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/26/2020 18:06:57.452 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/26/2020 18:06:57.452 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+03/26/2020 18:06:57.672 [main|StandardService] - Stopping service [Tomcat]
+03/26/2020 18:09:01.834 [main|AnnotationConfigApplicationContext] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@26d9b808: startup date [Thu Mar 26 18:09:01 CST 2020]; root of context hierarchy
+03/26/2020 18:09:02.936 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 18:09:03.126 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dbd8cc52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 18:09:05.477 [main|ProductServiceStart] - The following profiles are active: dev
+03/26/2020 18:09:05.525 [main|AnnotationConfigServletWebServerApplicationContext] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34a1d21f: startup date [Thu Mar 26 18:09:05 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@26d9b808
+03/26/2020 18:09:07.136 [main|RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+03/26/2020 18:09:08.339 [main|GenericScope] - BeanFactory id=6eecf4f4-9f32-3b5a-a358-21ea5fe4a1e0
+03/26/2020 18:09:08.423 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 18:09:08.938 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dbd8cc52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 18:09:10.688 [main|TomcatWebServer] - Tomcat initialized with port(s): 8770 (http)
+03/26/2020 18:09:10.734 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8770"]
+03/26/2020 18:09:10.781 [main|StandardService] - Starting service [Tomcat]
+03/26/2020 18:09:10.812 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+03/26/2020 18:09:10.859 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+03/26/2020 18:09:11.397 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+03/26/2020 18:09:11.397 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 5872 ms
+03/26/2020 18:09:12.006 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+03/26/2020 18:09:12.021 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/26/2020 18:09:12.021 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/26/2020 18:09:12.021 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/26/2020 18:09:12.021 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+03/26/2020 18:09:13.814 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+03/26/2020 18:09:13.829 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+03/26/2020 18:09:14.204 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/26/2020 18:09:15.289 [main|RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34a1d21f: startup date [Thu Mar 26 18:09:05 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@26d9b808
+03/26/2020 18:09:15.602 [main|RequestMappingHandlerMapping] - Mapped "{[/getProducts],methods=[POST]}" onto public com.chasepay.utilities.entity.webservice.ServletResponseData com.chasepay.product.controller.ProductController.getProducts(com.chasepay.utilities.entity.webservice.ServletRequestData)
+03/26/2020 18:09:15.611 [main|RequestMappingHandlerMapping] - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.chasepay.product.controller.ProductController.login(java.lang.String)
+03/26/2020 18:09:15.624 [main|RequestMappingHandlerMapping] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/26/2020 18:09:15.625 [main|RequestMappingHandlerMapping] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/26/2020 18:09:15.778 [main|SimpleUrlHandlerMapping] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/26/2020 18:09:15.778 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/26/2020 18:09:21.154 [main|AnnotationMBeanExporter] - Registering beans for JMX exposure on startup
+03/26/2020 18:09:21.201 [main|AnnotationMBeanExporter] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+03/26/2020 18:09:21.217 [main|AnnotationMBeanExporter] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+03/26/2020 18:09:21.217 [main|AnnotationMBeanExporter] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+03/26/2020 18:09:21.232 [main|AnnotationMBeanExporter] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+03/26/2020 18:09:21.279 [main|AnnotationMBeanExporter] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+03/26/2020 18:09:21.326 [main|AnnotationMBeanExporter] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=34a1d21f,type=ConfigurationPropertiesRebinder]
+03/26/2020 18:09:21.388 [main|DefaultLifecycleProcessor] - Starting beans in phase 0
+03/26/2020 18:09:21.404 [main|InstanceInfoFactory] - Setting initial instance status as: STARTING
+03/26/2020 18:09:21.636 [main|DiscoveryClient] - Initializing Eureka in region us-east-1
+03/26/2020 18:09:23.429 [main|DiscoveryJerseyProvider] - Using JSON encoding codec LegacyJacksonJson
+03/26/2020 18:09:23.429 [main|DiscoveryJerseyProvider] - Using JSON decoding codec LegacyJacksonJson
+03/26/2020 18:09:23.772 [main|DiscoveryJerseyProvider] - Using XML encoding codec XStreamXml
+03/26/2020 18:09:23.772 [main|DiscoveryJerseyProvider] - Using XML decoding codec XStreamXml
+03/26/2020 18:09:24.443 [main|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Disable delta property : false
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Application is null : false
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Application version is -1: true
+03/26/2020 18:09:25.677 [main|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 18:09:26.904 [main|DiscoveryClient] - Starting heartbeat executor: renew interval is: 30
+03/26/2020 18:09:26.920 [main|InstanceInfoReplicator] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+03/26/2020 18:09:26.920 [main|DiscoveryClient] - Discovery Client initialized at timestamp 1585217366920 with initial instances count: 0
+03/26/2020 18:09:26.935 [main|EurekaServiceRegistry] - Registering application service-product with eureka with status UP
+03/26/2020 18:09:26.935 [main|DiscoveryClient] - Saw local status change event StatusChangeEvent [timestamp=1585217366935, current=UP, previous=STARTING]
+03/26/2020 18:09:27.029 [main|Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8770"]
+03/26/2020 18:09:27.060 [main|NioSelectorPool] - Using a shared selector for servlet write/read
+03/26/2020 18:09:27.154 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_SERVICE-PRODUCT/zhaoming-PC:service-product:8770: registering service...
+03/26/2020 18:09:27.169 [main|TomcatWebServer] - Tomcat started on port(s): 8770 (http) with context path ''
+03/26/2020 18:09:27.169 [main|EurekaAutoServiceRegistration] - Updating port to 8770
+03/26/2020 18:09:27.185 [main|ProductServiceStart] - Started ProductServiceStart in 29.177 seconds (JVM running for 31.897)

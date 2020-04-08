@@ -1,0 +1,234 @@
+package com.chasepay.manage.controller;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.annotation.Resource;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.chasepay.manage.constant.ManageConstants;
+import com.chasepay.manage.service.UserService;
+import com.chasepay.redis.RedisUtil;
+import com.chasepay.utilities.constant.EntityAttributeConstants;
+import com.chasepay.utilities.constant.EntityConstant;
+import com.chasepay.utilities.entity.Entity;
+import com.chasepay.utilities.entity.Entity_Attribute;
+import com.chasepay.utilities.entity.webservice.ServletRequestData;
+import com.chasepay.utilities.entity.webservice.ServletResponseData;
+import com.chasepay.utilities.util.CommonUtil;
+import com.chasepay.utilities.util.PasswordHashUtil;
+
+@EnableAutoConfiguration
+@CrossOrigin
+@RestController
+public class UserController {
+	
+	@Resource
+	private UserService userService;
+	
+	@Autowired
+	private RedisUtil redisUtil;
+	
+	private Logger logger = LogManager.getLogger(UserController.class);
+	
+	PasswordHashUtil passwordHashUtil = new PasswordHashUtil();
+	
+	@RequestMapping(value="/user/create", method = RequestMethod.POST)
+	public ServletResponseData create(@RequestBody ServletRequestData request) 
+	{
+		Map<String, String> paramterMap = request.getParamterMap();
+		logger.info(paramterMap.toString());
+		
+		ServletResponseData servletResponseData = new ServletResponseData();
+		
+		return servletResponseData;
+	}
+	
+	@RequestMapping(value="/user/select", method = RequestMethod.POST)
+	public ServletResponseData select(@RequestBody ServletRequestData request) 
+	{
+		Map<String, String> paramterMap = request.getParamterMap();
+		logger.info(paramterMap.toString());
+		
+		ServletResponseData servletResponseData = new ServletResponseData();
+		
+		return servletResponseData;
+		
+	}
+	
+	
+	@RequestMapping(value="/user/update", method = RequestMethod.POST)
+	public ServletResponseData update(@RequestBody ServletRequestData request) 
+	{
+		Map<String, String> paramterMap = request.getParamterMap();
+		logger.info(paramterMap.toString());
+		
+		ServletResponseData servletResponseData = new ServletResponseData();
+		
+		return servletResponseData;
+		
+	}
+	
+	
+	@RequestMapping(value="/user/delete", method = RequestMethod.POST)
+	public ServletResponseData delete(@RequestBody ServletRequestData request) 
+	{
+		Map<String, String> paramterMap = request.getParamterMap();
+		logger.info(paramterMap.toString());
+		
+		ServletResponseData servletResponseData = new ServletResponseData();
+		
+		return servletResponseData;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@RequestMapping(value="/service/manage/user/getcreate",method = RequestMethod.GET)
+	public String create(@RequestParam(value="userName") String userName,@RequestParam(value="password") String password,@RequestParam(value="userId") String userId)
+	{
+		Entity entity = new Entity();
+		entity.setEntity_type(EntityConstant.ENTITY_TYPE_COMPANY);
+		List<Entity_Attribute> attributes = new ArrayList<Entity_Attribute>();
+		Entity_Attribute entity_Attribute = new Entity_Attribute();
+
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_user_name);
+		entity_Attribute.setAttribute_value(userName);
+		attributes.add(entity_Attribute);
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_user_password);
+		entity_Attribute.setAttribute_value(passwordHashUtil.getPassword(password.getBytes()));
+		entity_Attribute = new Entity_Attribute();
+		entity_Attribute.setAttribute_def_id(EntityAttributeConstants.def_id_user_create_time);
+		entity_Attribute.setAttribute_value(CommonUtil.getCurrentTimeMillis());
+		attributes.add(entity_Attribute);
+		entity.setAttribute_value_list(attributes);
+		
+		Map<String,String> map = new HashMap<String,String>();
+		map.put(EntityConstant.company_id, null);
+		String id = userService.create(map, entity);
+		
+		if(null==id)
+		{
+			return userId+ " create user "+userName+"error";
+		}
+		else
+		{
+			return userId+ " create user "+userName+"successfully";
+		}
+	}
+	
+	
+	@RequestMapping(value="/service/manage/user/getcreate",method = RequestMethod.GET)
+	public String registPhone(@RequestParam(value="userName") String userName,@RequestParam(value="password") String password,@RequestParam(value="phone") String phone)
+	{
+	
+		Object activeObj = redisUtil.get(ManageConstants.CACHE_KEY_REGIST+userName); 
+		if(null==activeObj)
+		{
+			
+		}
+		else
+		{
+			
+		}
+		
+		
+	}
+	
+	
+	
+	@RequestMapping(value="/service/manage/user/getcreate",method = RequestMethod.GET)
+	public String registEmail(@RequestParam(value="userName") String userName,@RequestParam(value="password") String password,@RequestParam(value="email") String email)
+	{
+	
+		Object activeObj = redisUtil.get(ManageConstants.CACHE_KEY_REGIST+email); 
+		if(null==activeObj)
+		{
+			boolean userExisted = userService.userExisted(userName);
+			if(userExisted)
+			{
+				return "user is used!";
+			}
+			
+			boolean emailExist = userService.emailExist(email);
+			if(emailExist)
+			{
+				return "email is used!";
+			}
+			
+			
+			boolean registByEmail = userService.registByEmail(userName, password, email);
+			if(!registByEmail)
+			{
+				return "system error!";
+			}
+			
+			return "succeed to regist.please active in you email.";
+			
+		}
+		else
+		{
+			return "please active in you email.";
+		}
+		
+		
+	}
+	
+	
+	@RequestMapping(value="/service/manage/user/getrgistemail",method = RequestMethod.GET)
+	public String registEmail(@RequestParam(value="userName") String userName,@RequestParam(value="password") String password,@RequestParam(value="email") String email)
+	{
+	
+		Object activeObj = redisUtil.get(ManageConstants.CACHE_KEY_REGIST+email); 
+		if(null==activeObj)
+		{
+			boolean userExisted = userService.userExisted(userName);
+			if(userExisted)
+			{
+				return "user is used!";
+			}
+			
+			boolean emailExist = userService.emailExist(email);
+			if(emailExist)
+			{
+				return "email is used!";
+			}
+			
+			
+			boolean registByEmail = userService.registByEmail(userName, password, email);
+			if(!registByEmail)
+			{
+				return "system error!";
+			}
+			
+			return "succeed to regist.please active in you email.";
+			
+		}
+		else
+		{
+			return "please active in you email.";
+		}
+		
+		
+	}
+
+}

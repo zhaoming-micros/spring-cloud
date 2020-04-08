@@ -1,0 +1,7 @@
+package com.chasepay.manage.constant;
+
+public class ManageConstants {
+	
+	public static final String PRODUCT_KEY = "product"; 
+
+}

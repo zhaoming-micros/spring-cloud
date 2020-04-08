@@ -1,0 +1,12 @@
+package com.chasepay.utilities.util;
+
+public class DesCryptUtil 
+{
+	private static final String key = "!@#$777&*^";
+	
+	public String encrypt(String data)
+	{
+		
+	}
+
+}

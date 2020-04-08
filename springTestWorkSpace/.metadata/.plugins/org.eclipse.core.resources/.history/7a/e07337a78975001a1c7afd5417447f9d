@@ -1,0 +1,17 @@
+package com.chasepay.manage;
+
+import com.chasepay.utilities.util.PasswordHashUtil;
+
+public class TestActiveCode {
+	
+	public static void main(String[] args) {
+		
+		String userName = "zhaoming";
+		String email = "1987o2o2";
+		String password = "waxdyy2007@126.com";
+		
+		String activateCode = PasswordHashUtil.getActivateCode(userName+email+password);
+		System.out.println(activateCode);
+	}
+
+}

@@ -1,0 +1,29 @@
+1583720027521	Delete element
+1583720898254	Rename package 'com.chasepay.database'
+1583725460009	Rename type 'DatabaseServerReader'
+1583727856016	Delete element
+1583727934429	Rename package 'com.chasepay.databse.util'
+1583728353035	Rename type 'ChasepayDatasource'
+1583730247019	Copy compilation unit
+1583730250992	Delete element
+1583730265051	Delete element
+1583730271427	Delete element
+1583730377308	Rename type 'ChasepayDatasourceService'
+1583730382510	Copy compilation unit
+1583730387343	Delete element
+1583736821110	Delete element
+1583736883662	Rename type 'MarketplaceDatabaseConnection'
+1583746776436	Rename compilation unit 'DatabaseExecuteResult.java'
+1583748352245	Rename type 'DatabaseInsertResult'
+1583751778727	Delete element
+1583752783661	Rename type 'DatabaseExecuteResult'
+1583752969671	Copy compilation unit
+1583753029072	Copy compilation unit
+1583753154230	Copy compilation unit
+1583761167076	Delete element
+1583809600539	Delete element
+1583809603985	Delete element
+1583811532025	Delete elements
+1583823099452	Rename method 'updateSameBulkDataNoCommit'
+1584064599231	Rename package 'com.chasepay.database.config.util'
+1584064623402	Rename type 'MarketplaceDatabaseUtil'

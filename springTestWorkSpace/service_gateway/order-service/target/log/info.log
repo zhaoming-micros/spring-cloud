@@ -1,0 +1,171 @@
+03/26/2020 09:43:02.245 [main|GenericScope] - BeanFactory id=99fbe960-c067-3b7b-80f7-682febc995c3
+03/26/2020 09:43:02.292 [main|AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+03/26/2020 09:43:02.352 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$25d9cd94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 09:43:02.609 [main|PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6e41bf0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03/26/2020 09:43:03.953 [main|TomcatWebServer] - Tomcat initialized with port(s): 8762 (http)
+03/26/2020 09:43:04.007 [main|Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8762"]
+03/26/2020 09:43:04.031 [main|StandardService] - Starting service [Tomcat]
+03/26/2020 09:43:04.032 [main|StandardEngine] - Starting Servlet Engine: Apache Tomcat/8.5.31
+03/26/2020 09:43:04.052 [localhost-startStop-1|AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jre8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre8/bin/server;D:/Java/jre8/bin;D:/Java/jre8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;E:\Program Files (x86)\VisualSVN Server\bin;E:\Program Files (x86)\tortoiseSVN\bin;D:\Program Files\TortoiseGit\bin;;D:\Java\jdk7_64\bin;D:\Java\jdk7_64\jre\bin;E:\microsgitrepo\NewSystem\newSource\javamarketplace\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\E:\MySQL\MySQL Server 5.6\bin;E:\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;E:\microsgitrepo\NewSystem\accountweb\newAccountWeb\gwt-2.8.1;E:\microsgitrepo\NewSystem\cacheFramework\Amazon\AWSCLI\;C:\Program Files\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\carl\AppData\Roaming\npm;E:\neweclipse\eclipse\java-oxygen\eclipse;;.]
+03/26/2020 09:43:04.477 [localhost-startStop-1|[/]] - Initializing Spring embedded WebApplicationContext
+03/26/2020 09:43:04.478 [localhost-startStop-1|ContextLoader] - Root WebApplicationContext: initialization completed in 4512 ms
+03/26/2020 09:43:05.077 [localhost-startStop-1|ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+03/26/2020 09:43:05.090 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+03/26/2020 09:43:05.091 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+03/26/2020 09:43:05.091 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+03/26/2020 09:43:05.091 [localhost-startStop-1|FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+03/26/2020 09:43:05.406 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+03/26/2020 09:43:05.424 [main|URLConfigurationSource] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+03/26/2020 09:43:05.746 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/26/2020 09:43:06.497 [main|RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@625abb97: startup date [Thu Mar 26 09:42:59 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@428640fa
+03/26/2020 09:43:06.751 [main|RequestMappingHandlerMapping] - Mapped "{[/create]}" onto public java.lang.String com.chasepay.order.service.OrderService.createOrder(java.lang.String)
+03/26/2020 09:43:06.753 [main|RequestMappingHandlerMapping] - Mapped "{[/query]}" onto public java.lang.String com.chasepay.order.service.OrderService.queryOrder(java.lang.String,java.lang.String)
+03/26/2020 09:43:06.775 [main|RequestMappingHandlerMapping] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+03/26/2020 09:43:06.781 [main|RequestMappingHandlerMapping] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+03/26/2020 09:43:06.917 [main|SimpleUrlHandlerMapping] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/26/2020 09:43:06.918 [main|SimpleUrlHandlerMapping] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+03/26/2020 09:43:13.873 [main|AnnotationMBeanExporter] - Registering beans for JMX exposure on startup
+03/26/2020 09:43:13.908 [main|AnnotationMBeanExporter] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+03/26/2020 09:43:13.911 [main|AnnotationMBeanExporter] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+03/26/2020 09:43:13.917 [main|AnnotationMBeanExporter] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+03/26/2020 09:43:13.925 [main|AnnotationMBeanExporter] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+03/26/2020 09:43:14.895 [main|AnnotationMBeanExporter] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+03/26/2020 09:43:14.930 [main|AnnotationMBeanExporter] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=625abb97,type=ConfigurationPropertiesRebinder]
+03/26/2020 09:43:14.980 [main|DefaultLifecycleProcessor] - Starting beans in phase 0
+03/26/2020 09:43:15.007 [main|InstanceInfoFactory] - Setting initial instance status as: STARTING
+03/26/2020 09:43:15.143 [main|DiscoveryClient] - Initializing Eureka in region us-east-1
+03/26/2020 09:43:17.035 [main|DiscoveryJerseyProvider] - Using JSON encoding codec LegacyJacksonJson
+03/26/2020 09:43:17.036 [main|DiscoveryJerseyProvider] - Using JSON decoding codec LegacyJacksonJson
+03/26/2020 09:43:17.464 [main|DiscoveryJerseyProvider] - Using XML encoding codec XStreamXml
+03/26/2020 09:43:17.464 [main|DiscoveryJerseyProvider] - Using XML decoding codec XStreamXml
+03/26/2020 09:43:18.145 [main|ConfigClusterResolver] - Resolving eureka endpoints via configuration
+03/26/2020 09:43:19.215 [main|DiscoveryClient] - Disable delta property : false
+03/26/2020 09:43:19.216 [main|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 09:43:19.217 [main|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 09:43:19.217 [main|DiscoveryClient] - Application is null : false
+03/26/2020 09:43:19.218 [main|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 09:43:19.218 [main|DiscoveryClient] - Application version is -1: true
+03/26/2020 09:43:19.219 [main|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 09:43:20.464 [main|DiscoveryClient] - Starting heartbeat executor: renew interval is: 30
+03/26/2020 09:43:20.471 [main|InstanceInfoReplicator] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+03/26/2020 09:43:20.480 [main|DiscoveryClient] - Discovery Client initialized at timestamp 1585187000477 with initial instances count: 0
+03/26/2020 09:43:20.504 [main|EurekaServiceRegistry] - Registering application order-service with eureka with status UP
+03/26/2020 09:43:20.506 [main|DiscoveryClient] - Saw local status change event StatusChangeEvent [timestamp=1585187000506, current=UP, previous=STARTING]
+03/26/2020 09:43:20.524 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_ORDER-SERVICE/zhaoming-PC:order-service:8762: registering service...
+03/26/2020 09:43:20.531 [main|DefaultLifecycleProcessor] - Starting beans in phase 2147483547
+03/26/2020 09:43:20.644 [main|ConsumerConfig] - ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.0.110:9092, 192.168.0.110:9093, 192.168.0.110:9094]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 100
+	fetch.min.bytes = 1
+	group.id = test01
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+03/26/2020 09:43:20.878 [main|AppInfoParser] - Kafka version : 1.0.1
+03/26/2020 09:43:20.879 [main|AppInfoParser] - Kafka commitId : c0518aa65f25317e
+03/26/2020 09:43:20.899 [main|ThreadPoolTaskScheduler] - Initializing ExecutorService 
+03/26/2020 09:43:20.989 [main|Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8762"]
+03/26/2020 09:43:20.992 [main|NioSelectorPool] - Using a shared selector for servlet write/read
+03/26/2020 09:43:21.055 [main|TomcatWebServer] - Tomcat started on port(s): 8762 (http) with context path ''
+03/26/2020 09:43:21.058 [main|EurekaAutoServiceRegistration] - Updating port to 8762
+03/26/2020 09:43:21.068 [main|ServiceTest1] - Started ServiceTest1 in 26.467 seconds (JVM running for 28.364)
+03/26/2020 09:43:21.621 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|AbstractCoordinator] - [Consumer clientId=consumer-1, groupId=test01] Discovered group coordinator 192.168.0.110:9094 (id: 2147483645 rack: null)
+03/26/2020 09:43:21.630 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|ConsumerCoordinator] - [Consumer clientId=consumer-1, groupId=test01] Revoking previously assigned partitions []
+03/26/2020 09:43:21.631 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|KafkaMessageListenerContainer] - partitions revoked: []
+03/26/2020 09:43:21.631 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|AbstractCoordinator] - [Consumer clientId=consumer-1, groupId=test01] (Re-)joining group
+03/26/2020 09:43:21.795 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|AbstractCoordinator] - [Consumer clientId=consumer-1, groupId=test01] Successfully joined group with generation 5
+03/26/2020 09:43:21.798 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|ConsumerCoordinator] - [Consumer clientId=consumer-1, groupId=test01] Setting newly assigned partitions [carl_topic1-0]
+03/26/2020 09:43:21.825 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|KafkaMessageListenerContainer] - partitions assigned: [carl_topic1-0]
+03/26/2020 09:43:50.461 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+03/26/2020 09:43:50.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 09:43:50.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 09:43:50.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+03/26/2020 09:43:50.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 09:43:50.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+03/26/2020 09:43:50.462 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 09:43:51.559 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_ORDER-SERVICE/zhaoming-PC:order-service:8762: registering service...
+03/26/2020 09:44:21.913 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+03/26/2020 09:44:21.913 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 09:44:21.914 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 09:44:21.914 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+03/26/2020 09:44:21.914 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 09:44:21.914 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+03/26/2020 09:44:21.914 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 09:44:22.565 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_ORDER-SERVICE/zhaoming-PC:order-service:8762: registering service...
+03/26/2020 09:44:47.807 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|ChasepayMessageReceiver] - receive single record.
+03/26/2020 09:44:47.808 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1|ChasepayMessageReceiver] - message = guigui log out  successfully from service login : 8765
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+03/26/2020 09:44:52.976 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 09:44:53.648 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_ORDER-SERVICE/zhaoming-PC:order-service:8762: registering service...
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+03/26/2020 09:45:23.988 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 09:45:24.656 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_ORDER-SERVICE/zhaoming-PC:order-service:8762: registering service...
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Disable delta property : false
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Single vip registry refresh property : null
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Force full registry fetch : false
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application is null : false
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Registered Applications size is zero : true
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Application version is -1: true
+03/26/2020 09:45:55.038 [DiscoveryClient-CacheRefreshExecutor-0|DiscoveryClient] - Getting all instance registry info from the eureka server
+03/26/2020 09:45:55.655 [DiscoveryClient-InstanceInfoReplicator-0|DiscoveryClient] - DiscoveryClient_ORDER-SERVICE/zhaoming-PC:order-service:8762: registering service...

@@ -1,0 +1,26 @@
+package com.chasepay.email;
+
+import java.util.Arrays;
+
+import com.chasepay.configuration.SystemBaseHome;
+
+public class TestEmail {
+	
+	public static void main(String[] args) {
+		
+		String path = "D:\\workspace\\chasepay_service_product\\";
+		//String home = "E:\\microsgitrepo\\NewSystem\\accountweb\\apache-tomcat-8.0.15-windows-x86\\apache-tomcat-8.0.15\\webapps\\DaoUIWeb";
+		SystemBaseHome.getInstance().setSystemHome(path);
+		
+		EmailObject emailObject = new EmailObject();
+		
+		emailObject.setTo(Arrays.asList("waxdyy2007@126.com"));
+		emailObject.setSubject("主题");
+		emailObject.setContent("test  email");
+		
+		EmailFunction emailFunction = new EmailFunction(emailObject);
+		emailFunction.sendEmail();
+
+	}
+
+}

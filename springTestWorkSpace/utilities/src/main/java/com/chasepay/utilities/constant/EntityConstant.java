@@ -1,0 +1,133 @@
+package com.chasepay.utilities.constant;
+
+public class EntityConstant {
+	
+	//entity type
+	
+	public static final String ENTITY_TYPE_COMPANY = "1";
+	public static final String ENTITY_TYPE_USER = "2";
+	public static final String ENTITY_TYPE_PARTNER_SERVICE_PROVIDER = "3";
+	public static final String ENTITY_TYPE_WAREHOUSE = "4";
+	public static final String ENTITY_TYPE_MENU = "5";
+	public static final String ENTITY_TYPE_PARTNER_VENDOR = "6";
+	public static final String ENTITY_TYPE_PARTNER_PLATFORM = "7";
+	public static final String ENTITY_TYPE_PARTNER_WHOLESALER = "8";
+	public static final String ENTITY_TYPE_RETAIL_CUSTOMER = "22";
+	public static final String ENTITY_TYPE_PRODUCT = "9";
+	
+	
+  
+	public static final String company_id = "company_id";
+	public static final String CACHE_ENTITY_DEF = "cache_entity_def";
+
+	
+	public static final String FLAG_DELETE = "-2";
+	public static final String FLAG_GET_TABLE_LIST_MAP = "flag_table_map_list";
+	public static final String FLAG_IS_GROUP = "flag_is_group";
+	public static final String FLAG_FOR_MAIN_IMAGE = "flag_for_main_mage";
+	public static final String FLAG_FOR_UPDATE_DETAIL = "flag_for_update_detail";
+	public static final String TABLE_NAME = "table_name";
+	public static final String ENTITY_TYPE = "entity_type";
+	public static final String RELATION_TYPE = "relation_type";
+	
+	public static final String IMAGE = "image";
+	public static final String MAIN = "main";
+	public static final String DETAIL = "detail";
+	public static final String ORG_DETAIL_FILE = "org_detail_file";
+	
+	
+
+	public static final int DATA_TYPE_INT = 1;
+	public static final int DATA_TYPE_DATE = 2;
+	public static final int DATA_TYPE_TIME = 3;
+	public static final int DATA_TYPE_STRING = 4;
+	public static final int DATA_TYPE_BOOLEAN = 5;
+	public static final int DATA_TYPE_MILTIPLE_LINES_STRING = 6;
+	public static final int DATA_TYPE_IMAGE = 7;
+	public static final int DATA_TYPE_VIEDO = 8;
+	public static final int DATA_TYPE_LIST = 9;
+	public static final int DATA_TYPE_HYPERLINK = 12;
+	public static final int DATA_TYPE_SECRETE = 13;	
+	public static final int DATA_TYPE_ADDRESS = 10;  /*address line1, address line2, address line3, city, state, country, zip */
+	public static final int DATA_TYPE_AMOUNT = 11; /* amount + amount currency + currency symbol */
+	public static final int DATA_TYPE_COMMENT = 14; /* date time user_id user_name comment */ 
+	public static final int DATA_TYPE_STATUS_CHANGE = 15;
+	
+	/*
+	public static final int ATTRIBUTE_TYPE_ENTITY = 1;    // such as SKU 
+	public static final int ATTRIBUTE_TYPE_GROUP = 2;      // such as PO number 
+	public static final int ATTRIBUTE_TYPE_BOTH = 3;        // such as name 
+	public static final int ATTRIBUTE_TYPE_GROUP_ENTITY = 4; // such as PO unit price 
+	public static final int ATTRIBUTE_TYPE_STATUS = 5;     // such as 0000 is final state
+	public static final int ATTRIBUTE_TYPE_RELATIONSHIP_ENTITY_GROUP = 6;    
+	*/
+	
+	//public static final String LANGUAGE_EN = "en";
+	//public static final String LANGUAGE_CN = "cn";
+	
+	public static final String ATTRIBUTE_DATA_TYPE_STRING = "0";
+	public static final String ATTRIBUTE_DATA_TYPE_DATE = "1";
+	public static final String ATTRIBUTE_DATA_TYPE_INT = "2";
+	
+	public static final String ATTRIBUTE_TYPE_ENTITY = "0";
+	public static final String ATTRIBUTE_TYPE_ENTITY_GROUP_RELATION = "3";
+	public static final String ENTITY_ATTRIBUTE_DEF_NAME = "1";
+	
+	public static final String TRUE = "true";
+	public static final String FALSE = "false";
+	
+	public static final String VALUE_TRUE = "1";
+	public static final String VALUE_FALSE = "0";
+	
+	public static final String flag_file_sep = "_";
+	
+	public static final String entity_id = "entity_id";
+	public static final String entity_group_id = "entity_group_id";
+	public static final String entity_relation_id = "entity_relation_id";
+	
+	public static final String entity_type = "entity_type";
+	public static final String entity_group_type = "entity_group_type";
+	public static final String relation_type = "relation_type";
+	
+	
+	
+	public static final String attribute_type = "attribute_type";
+	public static final String attribute_id = "attribute_id";
+	public static final String attribute_def_id = "attribute_def_id";
+	public static final String attribute_value = "attribute_value";
+	public static final String attribute_value2 = "attribute_value2";
+	public static final String attribute_value3 = "attribute_value3";
+	public static final String attribute_value4 = "attribute_value4";
+	
+	public static final String attribute_name = "name";
+	public static final String attribute_data_type = "data_type";
+
+	public static final String attribute_internal_id1 = "attribute_internal_id1";
+	public static final String attribute_internal_id2 = "attribute_internal_id1";
+	public static final String def_internal_type1 = "def_internal_type1";
+	public static final String def_internal_type2 = "def_internal_type2";
+	public static final String def_internal_type3 = "def_internal_type3";
+	
+	public static final String table_name_entity = "entity";
+	public static final String table_name_entity_group = "entity_group";
+	public static final String table_name_entity_group_relation = "entity_group_relation";
+	public static final String table_name_entity_attribute = "entity_attribute";
+	public static final String table_name_entity_attribute_def = "entity_attribute_def";
+	public static final String table_name_entity_attribute_user_def = "entity_attribute_user_def";
+	
+	public static final String table_name_entity_attribute_int = "entity_attribute_int";
+	public static final String table_name_entity_attribute_date = "entity_attribute_date";
+	
+	public static final String table_name_sys_entity = "sys_entity";
+	public static final String table_name_sys_entity_attribute = "sys_entity_attribute";
+	
+	public static final String table_name_entity_attribute_group = "entity_attribute_group";
+	
+	public static final String table_name_entity_detail_file = "entity_detail_file";
+	
+	public static final String INSERT_FAIL = "-1";
+	
+	public static final String NO_RECORD = "NO_RECORD";
+	
+	public static final String SELECT_COND = "QueryCond";
+}

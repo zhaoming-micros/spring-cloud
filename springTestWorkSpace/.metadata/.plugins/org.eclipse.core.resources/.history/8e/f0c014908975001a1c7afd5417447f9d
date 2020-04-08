@@ -1,0 +1,9 @@
+package com.chasepay.manage;
+
+public class TestActiveCode {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.chasepay.zuul.filter;
+
+public class loginFilter {
+
+}

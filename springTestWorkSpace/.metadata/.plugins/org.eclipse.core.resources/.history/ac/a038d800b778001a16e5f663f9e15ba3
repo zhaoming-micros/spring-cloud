@@ -1,0 +1,98 @@
+package com.chasepay.zuul.filter;
+
+
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import org.springframework.http.HttpStatus;
+
+import com.chasepay.utilities.constant.SystemConstants;
+import com.chasepay.utilities.util.DesCryptUtil;
+import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.context.RequestContext;
+import com.netflix.zuul.exception.ZuulException;
+
+public class AuthorityFilter extends ZuulFilter{
+	
+	//private Logger logger = LogManager.getLogger(AuthorityFilter.class);
+
+	@Override
+	public Object run() throws ZuulException {
+		RequestContext currentContext = RequestContext.getCurrentContext();
+		HttpServletRequest request = currentContext.getRequest();
+		String auth = getCookieByKey(request, SystemConstants.AUTH_KEY);
+		if(null==auth)
+		{
+			auth = request.getHeader(SystemConstants.AUTH_KEY);
+		}
+
+		if(null==auth)
+		{
+			setUnAuthorizedResponse(currentContext, "No Auth Token!");
+			return null;
+		}
+		
+		
+		String decrypt = DesCryptUtil.decrypt(auth);
+		String[] split = decrypt.split("[|]");
+		if(split.length!=2)
+		{
+			setUnAuthorizedResponse(currentContext, "Error Auth Token!");
+			return null;
+		}
+		String userId = split[0];
+		String token = split[1];
+		
+		return null;
+	}
+
+	@Override
+	public boolean shouldFilter() 
+	{
+		RequestContext currentContext = RequestContext.getCurrentContext();
+		HttpServletRequest request = currentContext.getRequest();
+	   if (request.getRequestURI().contains("/login/")) 
+	   {
+	            return false;
+	   }
+	   return true;
+
+	}
+
+	@Override
+	public int filterOrder() {
+		// TODO Auto-generated method stub
+		return -1;
+	}
+
+	@Override
+	public String filterType() {
+		// TODO Auto-generated method stub
+		return "pre";
+	}
+		
+	
+	private String getCookieByKey(HttpServletRequest request,String key)
+	{
+		Cookie[] cookies = request.getCookies();
+		for(int i=0;i<cookies.length;i++)
+		{
+			String name = cookies[i].getName();
+			if(key.equals(name))
+			{
+				return cookies[i].getValue();
+			}
+		}
+		return null;
+	}
+	
+	
+	private void setUnAuthorizedResponse(RequestContext requestContext, String message) 
+	{
+        requestContext.setSendZuulResponse(false);
+        requestContext.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+        requestContext.setResponseBody(message);
+    }
+
+
+}

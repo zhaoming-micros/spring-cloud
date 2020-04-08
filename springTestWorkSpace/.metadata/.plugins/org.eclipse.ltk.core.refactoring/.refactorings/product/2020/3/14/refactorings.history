@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ServiceConfigUtil.java&apos; to &apos;manage/src/main/java/com.chasepay.manage.config&apos;&#x0D;&#x0A;- Original project: &apos;product&apos;&#x0D;&#x0A;- Destination element: &apos;manage/src/main/java/com.chasepay.manage.config&apos;&#x0D;&#x0A;- Original element: &apos;com.chasepay.product.config.ServiceConfigUtil.java&apos;" description="Copy compilation unit" destination="=manage/src\/main\/java&lt;com.chasepay.manage.config" element1="/src\/main\/java&lt;com.chasepay.product.config{ServiceConfigUtil.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1585561392678" units="1" version="1.0"/>
+</session>

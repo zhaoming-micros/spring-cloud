@@ -1,0 +1,10 @@
+package com.chasepay.utilities.util;
+
+public class CommonUtil {
+	
+	public String getCurrentTime()
+	{
+		return null;
+	}
+
+}

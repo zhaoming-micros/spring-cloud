@@ -1,0 +1,14 @@
+1585110160620	Rename type 'ChasepayProducerConfiguration'
+1585139430351	Copy compilation unit
+1585140180582	Rename package 'com.chaseay.eureka.client.order.message'
+1585185876183	Copy compilation unit
+1585185880199	Delete element
+1585186001938	Copy compilation unit
+1585186006287	Delete element
+1585186247471	Rename type 'MessageReceiver'
+1585186656658	Rename package 'com.chasepay.eureka.client.order'
+1585186675477	Rename package 'com.chasepay.eureka.client.order.message'
+1585186685601	Rename package 'com.chasepay.eureka.client.order.service'
+1585186814605	Delete elements
+1585187192455	Rename type 'ChasepayMessageReceiver'
+1585206521466	Copy file

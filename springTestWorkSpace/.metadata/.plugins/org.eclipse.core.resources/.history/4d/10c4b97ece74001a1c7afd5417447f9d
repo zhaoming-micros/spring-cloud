@@ -1,0 +1,18 @@
+package com.chasepay.email;
+
+import java.util.Arrays;
+
+public class TestEmail {
+	
+	public static void main(String[] args) {
+		
+		EmailObject emailObject = new EmailObject();
+		
+		emailObject.setTo(Arrays.asList("waxdyy2007@126.com"));
+		emailObject.setSubject("主题");
+		emailObject.setContent("test  email");
+		
+		EmailFunction EmailFunction = new EmailFunction();
+	}
+
+}

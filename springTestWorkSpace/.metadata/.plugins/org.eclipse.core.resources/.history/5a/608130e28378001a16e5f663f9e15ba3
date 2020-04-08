@@ -1,0 +1,9 @@
+package com.chasepay.zuul.filter;
+
+import com.netflix.zuul.ZuulFilter;
+
+public class loginFilter extends ZuulFilter{
+	
+	
+
+}

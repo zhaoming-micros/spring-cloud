@@ -1,0 +1,26 @@
+package com.chasepay.utilities.constant;
+
+public class SystemConstants {
+	
+	public static final String UTF8 = "UTF-8";
+	
+	public static final String FALG_SPLIT_TOKEN = "|";
+	
+	public static final String DES_KEY = "3he74f545810403828257951cbdd1234562974983040erg7";
+	
+	public static final String AUTH_KEY = "auth_token";
+	
+	public static final String CACHE_KEY_LOGIN = "login_user_id_";
+	
+	
+	
+	public static final String PSSD_SLT = "CPayAccWebLuca";
+	public static final String LOGIN_SLT = "CPayAccWebLogslt";
+	public static final String ACTIVATE_SLT = "CPayAccWebActslt";
+	public static final String RESET_SLT = "CPayAccWebResslt";
+	public static final String REQ_SLT = "CPayAccWebReqest";
+	
+	public static final int CODE_EXIPRE = 7;
+	public static final String DATE_FORMAT2 = "yyyyMMdd";
+
+}
